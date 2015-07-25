@@ -12,9 +12,9 @@ describe('Chirp', function(){
     expect(chirp).to.be.a('function');
   });
 
-  // it('should chirp once', function(){
-  //   expect(chirp).
-  // })
+  it('should chirp once', function(){
+    expect(chirp()).to.equal('chirp');
+  });
 
 
 });
